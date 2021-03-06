@@ -40,6 +40,6 @@ ul.listabonita > li:not(.selecionado) + li.selecionado{
 border-bottom-style: solid;
 
 }
-ul.listabonita > li:not(.selecionado) + li.selecionado{
+ul.listabonita > li:not(.selecionado) + li{
     border-bottom-style: solid;
     
