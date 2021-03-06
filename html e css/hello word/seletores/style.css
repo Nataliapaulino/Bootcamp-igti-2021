@@ -4,23 +4,25 @@ html{
 }
 ul.listabonita > li {
     list-style:none ;
-    border: 2px solid #a0a0a0;
+    border-width: 2px ;
+    border-width:#a0a0a0;
+    border-color: ;
     padding: 4px 8px;
     border-radius: 3px;
+    border-left-style: solid;
+    border-right-style: solid;
 }
-
-
-
-
 ul.listabonita{
     color: #353535;
 }
 
 ul.listabonita >li:first-child{
+ border-top-style: solid;
  border-top-left-radius:3px;
  border-top-right-radius:3px;
 }
 ul.listabonita >li:last-child{
+    border-bottom-style: solid;
     border-bottom-left-radius:3px;
     border-bottom-right-radius:3px;
    
@@ -32,4 +34,12 @@ ul.listabonita > li:hover{
 ul.listabonita > li.selecionado {
     background-color: #bfdbff;
     border-color:#2e79db ;
+    border-bottom-style: solid;
 }  
+ul.listabonita > li:not(.selecionado) + li.selecionado{
+border-bottom-style: solid;
+
+}
+ul.listabonita > li:not(.selecionado) + li.selecionado{
+    border-bottom-style: solid;
+    
