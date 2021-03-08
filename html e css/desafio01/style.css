@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+}
+section h1{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #008080;
+}
+section{
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.inputs{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.inputs label{
+font-size: 1.1rem;
+color: black;
+}
+.inputs.fiels{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+.inputs.fiels label{
+    margin-bottom: 0.4rem;
+}
+.inputs.fields input {
+    height: 1.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+button {
+    font-size: 1.2rem;
+    width: 6.3rem;
+    height: 2.3rem;
+    background-color:#008080;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+table thead th {
+    color:#008080;
+    font-size: 1.2rem;
+    padding-right: 40px;
+}
+
+tbody tr {
+  text-align: right:
+}
