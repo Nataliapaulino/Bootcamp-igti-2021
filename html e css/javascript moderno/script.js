@@ -51,4 +51,5 @@ let primos[2,3,5,7,11,13];
 let a=2,b=3;
 let soma=a+b;
 console.log(a+"+"+b+"="+soma);
+console.log(${a}+${b} '' {soma})
 
