@@ -1,10 +1,4 @@
-import React from 'react';
-import Calculator from './container/calculator'
+import React from "react";
+import {StyleSheet,Text,View} from 'react-native';
 
- export function app(){
-    return(
-        <div className="screen">
-            <Calculator/>
-         </div>   
-    )
-}
+export default function
